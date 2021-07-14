@@ -7,7 +7,7 @@ codigo_convenio:
   # ao Banco no sistema PAG com tamanho 9 e com '0' (Zeros) a esquerda e mais
   # 11 espaços em branco.
   #
-  # O contrato deve estar cadastrado no PAG (Pagamentos a terceiros) no
+  # O contrato deve estar cadastrado no PAG (Pagamentos a terceiros) no 
   # serviço 30 (Pagamentos de títulos do Banco do Brasil) e no serviço 31
   # (Pagamentos de títulos de outros bancos).
   pos: [33, 41]
@@ -46,11 +46,17 @@ agencia_mais_cedente_dv:
   picture: 'X(1)'
   default: ''
 
+versao_layout_arquivo:
+  # Código adotado pela FEBRABAN para identificar qual a versão de layout do arquivo encaminhado. O
+  # código é composto de:
+  # Versão = 2 dígitos
+  # Release = 1 dígito
+  # Padrão: 030
+  pos: [164, 166]
+  picture: '9(3)'
+  default: '084'
+
 uso_exclusivo_febraban_03:
-  # Informar 'brancos', porém se o arquivo foi formatado com a
-  # versão do layout 030, pode ser informado 'CSP' nas posições
-  # 223 a 225, e 'zeros' nas posições 226 a 228.
-  #pos: [212, 240]
   pos: [212, 222]
   picture: 'X(11)'
   default: ''
@@ -58,19 +64,19 @@ uso_exclusivo_febraban_03:
 identificacao_cobranca_sem_papel:
   pos: [223, 225]
   picture: 'X(3)'
-  default: 'CSP'
+  default: ''
 
 controle_vans:
   pos: [226, 228]
-  picture: '9(3)'
-  default: '0'
+  picture: 'X(3)'
+  default: ''
 
 tipo_servico:
   pos: [229, 230]
-  picture: '9(2)'
-  default: '0'
+  picture: 'X(2)'
+  default: ''
 
 ocorrencias:
   pos: [231, 240]
-  picture: '9(10)'
-  default: '0'
+  picture: 'X(10)'
+  default: ''

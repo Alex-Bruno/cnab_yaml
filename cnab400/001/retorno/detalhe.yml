@@ -11,7 +11,7 @@ zeros01:
   picture: '9(16)'
   default: 0
 
-agencia:
+agencia_cobradora:
   pos: [18, 21]
   picture: '9(04)'
 
@@ -19,11 +19,11 @@ agencia_cobradora_dac:
   pos: [22, 22]
   picture: '9(01)'
 
-conta:
+conta_cedente:
   pos: [23, 30]
   picture: '9(08)'
 
-dac:
+conta_cedente_dac:
   pos: [31, 31]
   picture: 'X(01)'
 
@@ -36,12 +36,13 @@ controle_participante:
   picture: 'X(25)'
 
 nosso_numero:
-  #Identificação Do Título No Banco
-  pos: [64, 80]
-  picture: '9(17)'
+  #Identificação Do Título No Banco 
+  #Before pos:[64, 80] - picture: '9(17)'
+  pos: [71, 80]
+  picture: '9(10)'
 
 tipo_cobranca:
-  #Nota 2
+  #Nota 2 
   pos: [81, 81]
   picture: '9(01)'
 
@@ -119,7 +120,7 @@ valor_juros:
   pos: [267, 279]
   picture: '9(11)V9(2)'
 
-valor_outros_creditos:
+valor_outros_recebimentos:
   pos: [280, 292]
   picture: '9(11)V9(2)'
 

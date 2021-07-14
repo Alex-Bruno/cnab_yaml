@@ -22,6 +22,7 @@ uso_exclusivo_febraban_01:
 qtde_registro_lote:
   pos: [18, 23]
   picture: '9(6)'
+  default: '0'
 
 qtde_titulo_cobranca_simples:
   pos: [24, 29]

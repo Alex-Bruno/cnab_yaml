@@ -24,7 +24,17 @@ qtde_registro_lote:
   pos: [18, 23]
   picture: '9(6)'
 
+somatorio_valoes:
+  pos: [24, 41]
+  picture: '9(16)V9(2)'
+  default: '0'
+
+somatorio_quantidade_moeda:
+  pos: [42, 59]
+  picture: '9(13)V9(5)'
+  default: '0'
+
 uso_exclusivo_febraban_02:
-  pos: [24, 240]
-  picture: 'X(217)'
+  pos: [60, 240]
+  picture: 'X(181)'
   default: ''
