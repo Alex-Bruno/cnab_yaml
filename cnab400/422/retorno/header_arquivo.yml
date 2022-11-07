@@ -1,0 +1,58 @@
+# 422 SAFRA
+
+tipo_registro:
+  pos: [1,1]
+  picture: '9(1)'
+  default: 0
+codigo_arquivo:
+  pos: [2,2]
+  picture: '9(1)'
+  default: 0
+id_arquivo:
+  pos: [3,9]
+  picture: 'X(7)'
+  default: 'RETORNO'
+codigo_servico:
+  pos: [10,11]
+  picture: '9(2)'
+  default: 01
+id_servico:
+  pos: [12,19]
+  picture: 'X(8)'
+  default: 'COBRANCA'
+brancos_1:
+  pos: [20,26]
+  picture: 'X(7)'
+codigo_empresa:
+  pos: [27,40]
+  picture: '9(14)'
+brancos_2:
+  pos: [41,46]
+  picture: 'X(6)'
+razao_social:
+  pos: [47,76]
+  picture: 'X(30)'
+  default: ''
+codigo_banco:
+  pos: [77,79]
+  picture: '9(3)'
+  default: '422'
+nome_banco:
+  pos: [80,84]
+  picture: 'X(5)'
+  default: 'SAFRA'
+brancos_3:
+  pos: [85,94]
+  picture: 'X(10)'
+data_gravacao:
+  pos: [95,100]
+  picture: '9(6)'
+brancos_4:
+  pos: [101,391]
+  picture: 'X(291)'
+num_arquivo:
+  pos: [392,394]
+  picture: '9(3)'
+num_registro:
+  pos: [395,400]
+  picture: '9(6)'

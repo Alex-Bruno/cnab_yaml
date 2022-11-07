@@ -1,0 +1,134 @@
+# 422 SAFRA
+
+tipo_registro:
+  pos: [1,1]
+  picture: '9(1)'
+  default: 1
+codigo_inscricao:
+  pos: [2,3]
+  picture: '9(2)'
+num_inscricao:
+  pos: [4,17]
+  picture: '9(14)'
+codigo_empresa:
+  pos: [18,31]
+  picture: '9(14)'
+brancos_1:
+  pos: [32,37]
+  picture: 'X(6)'
+uso_empresa:
+  pos: [38,62]
+  picture: 'X(25)'
+nosso_num:
+  pos: [63,71]
+  picture: '9(9)'
+brancos_2:
+  pos: [72,102]
+  picture: 'X(31)'
+ocorrencia_origem:
+  pos: [103,104]
+  picture: '9(2)'
+codigo_rejeicao:
+  pos: [105,107]
+  picture: '9(3)'
+carteira: #codigo_carteira
+  pos: [108,108]
+  picture: '9(1)'
+codigo_de_ocorrencia:
+  #Nota 17 - Identificação Da Ocorrência
+  pos: [109,110]
+  picture: '9(2)'
+data_de_ocorrencia:
+  pos: [111,116]
+  picture: '9(6)'
+seu_num:
+  pos: [117,126]
+  picture: 'X(10)'
+nosso_numero:
+  pos: [127,135]
+  picture: '9(9)'
+brancos_3:
+  pos: [136,146]
+  picture: 'X(11)'
+vencimento:
+  pos: [147,152]
+  picture: '9(6)'
+valor_principal: #valor_titulo
+  #Valor Líquido Pago Pelo Pagador
+  pos: [153,165]
+  picture: '9(11)V9(2)'
+banco_cobrador:
+  pos: [166,168]
+  picture: '9(3)'
+agencia_cobradora:
+  pos: [169,173]
+  picture: '9(5)'
+especie:
+  pos: [174,175]
+  picture: '9(2)'
+tarifa_cobranca:
+  pos: [176,188]
+  picture: '9(13)'
+out_despesas:
+  pos: [189,201]
+  picture: '9(13)'
+zeros_1:
+  pos: [202,214]
+  picture: '9(13)'
+iof:
+  pos: [215,227]
+  picture: '9(13)'
+abatimento:
+  pos: [228,240]
+  picture: '9(13)'
+valor_desconto:
+  pos: [241,253]
+  picture: '9(13)'
+valor_pago:
+  pos: [254,266]
+  picture: '9(13)'
+juros_mora:
+  pos: [267, 279]
+  picture: '9(13)'
+outros_creditos:
+  pos: [280,292]
+  picture: '9(13)'
+codigo_moeda:
+  pos: [293,295]
+  picture: '9(3)'
+data_credito:
+  pos: [296,301]
+  picture: '9(6)'
+brancos_4:
+  pos: [302,307]
+  picture: 'X(6)'
+beneficiario_transferido:
+  pos: [308,321]
+  picture: '9(14)'
+indicador_entrada:
+  pos: [322,322]
+  picture: 'X(1)'
+meio_liquidacao:
+  pos: [323,324]
+  picture: 'X(2)'
+codigo_inscricao:
+  pos: [325,326]
+  picture: '9(2)'
+num_inscricao:
+  pos: [327,340]
+  picture: '9(14)'
+nome_pagador:
+  pos: [341, 375]
+  picture: 'X(35)'
+seu_numero:
+  pos: [376,390]
+  picture: '9(15)'
+brancos_5:
+  pos: [391,391]
+  picture: 'X(1)'
+num_arquivo:
+  pos: [392,394]
+  picture: '9(3)'
+num_sequencial:
+  pos: [395,400]
+  picture: '9(6)'

@@ -1,0 +1,57 @@
+# 422 SAFRA
+
+tipo_registo:
+  pos: [1,1]
+  picture: '9(1)'
+  default: 9
+codigo_arquivo:
+  pos: [2,2]
+  picture: 'X(1)'
+  default: 2
+codigo_servico:
+  pos: [3,4]
+  picture: 'X(2)'
+  default: "01"
+codigo_banco:
+  pos: [5,7]
+  picture: '9(3)'
+  default: 422
+brancos:
+  pos: [8,17]
+  picture: 'X(10)'
+# ** POSIÇÃO ATUAL DA COBRANÇA SIMPLES **
+qtde_titulos:
+  pos: [18,25]
+  picture: '9(8)'
+valor:
+  pos: [26,39]
+  picture: '9(14)'
+aviso:
+  pos: [40,47]
+  picture: '9(8)'
+qtde_titulos:
+  pos: [48,97]
+  picture: '9(50)'
+# ** POSIÇÃO ANTERIOR DA COBRANÇA SIMPLES **
+qtde_anterior_titulos:
+  pos: [150,157]
+  picture: '9(8)'
+valor_anterior:
+  pos: [158,171]
+  picture: '9(14)'
+# ** RATEIOS EFETUADOS **
+qtde_rateios:
+  pos: [334, 341]
+  picture: '9(8)'
+valor_rateios:
+  pos: [342, 353]
+  picture: '9(12)'
+brancos:
+  pos: [354, 391]
+  picture: '9(38)'
+num_arquivo:
+  pos: [392,394]
+  picture: '9(3)'
+num_sequencial:
+  pos: [395,400]
+  picture: '9(6)'
